@@ -17,3 +17,9 @@ offset_bottom = 200.0
 [node name="KelimeAlani" type="HBoxContainer" parent="." unique_id=1650960944]
 offset_right = 40.0
 offset_bottom = 40.0
+
+[node name="Gonder" type="Button" parent="." unique_id=44552887]
+custom_minimum_size = Vector2(100, 300)
+offset_right = 8.0
+offset_bottom = 8.0
+text = "Gönder"
