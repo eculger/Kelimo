@@ -5,6 +5,7 @@ var kelimeler = ["elma", "kitap", "masa", "kalem", "bahçe"]
 var hedef_kelime = ""
 
 func _ready():
+	
 	hedef_kelime = kelimeler.pick_random()
 	var harfler = Array(hedef_kelime.split(""))
 	harfler.shuffle()
@@ -14,4 +15,7 @@ func _ready():
 	for harf in harfler:
 		var btn = Button.new()
 		btn.text = harf
-		$HBoxContainer.add_child(btn)
+		$HarfAlani.add_child(btn)
+		btn.pressed.connect(harf_basildi.bind(harf))
+func harf_basildi(harf):
+		print("Basılan harf: ", harf)

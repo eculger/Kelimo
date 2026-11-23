@@ -9,7 +9,11 @@ script = ExtResource("1_o5qli")
 offset_right = 40.0
 offset_bottom = 23.0
 
-[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=1114003311]
+[node name="HarfAlani" type="HBoxContainer" parent="." unique_id=1114003311]
 custom_minimum_size = Vector2(100, 200)
 offset_right = 100.0
 offset_bottom = 200.0
+
+[node name="KelimeAlani" type="HBoxContainer" parent="." unique_id=1650960944]
+offset_right = 40.0
+offset_bottom = 40.0
