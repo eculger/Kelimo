@@ -10,3 +10,4 @@ func _ready():
 	harfler.shuffle()
 	print("Karışık harfler: ", harfler)
 	print("Cevap: ", hedef_kelime)
+	$Label.text = " ".join(harfler)

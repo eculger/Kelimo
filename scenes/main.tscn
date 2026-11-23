@@ -4,3 +4,7 @@
 
 [node name="Node2D" type="Node2D" unique_id=1491853154]
 script = ExtResource("1_o5qli")
+
+[node name="Label" type="Label" parent="." unique_id=1497241454]
+offset_right = 40.0
+offset_bottom = 23.0
