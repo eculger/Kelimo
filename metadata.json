@@ -1,0 +1,5 @@
+{
+  "name": "Kelimo",
+  "description": "Turkish word-building puzzle game migrated from Godot to React.",
+  "requestFramePermissions": []
+}

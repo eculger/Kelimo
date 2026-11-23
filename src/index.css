@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #212532;
+  color: #f3f4f6;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 24px;
+}
+
+.kelimo-board {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  padding: 32px;
+  background-color: #2b3040;
+  border: 2px solid #363d52;
+  border-radius: 12px;
+  max-width: 520px;
+  width: 100%;
+}
+
+.kelimo-label {
+  font-size: 1.25rem;
+  font-weight: 600;
+  min-height: 1.75rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.kelime-alani,
+.harf-alani {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.slot-btn {
+  width: 44px;
+  height: 44px;
+  border-radius: 6px;
+  border: 1px solid #4a536e;
+  background-color: #1c202b;
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: lowercase;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  cursor: default;
+}
+
+.harf-btn {
+  min-width: 44px;
+  height: 44px;
+  padding: 0 12px;
+  border-radius: 6px;
+  border: 1px solid #5c6788;
+  background-color: #363d52;
+  color: #ffffff;
+  font-size: 1.125rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.08s ease;
+}
+
+.harf-btn:hover {
+  background-color: #478cbf;
+}
+
+.harf-btn:active {
+  transform: scale(0.96);
+}
+
+.gonder-btn {
+  min-width: 140px;
+  height: 48px;
+  padding: 0 24px;
+  border-radius: 6px;
+  border: 1px solid #5c9ed1;
+  background-color: #478cbf;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.15s ease, transform 0.08s ease;
+}
+
+.gonder-btn:hover {
+  background-color: #549dd4;
+}
+
+.gonder-btn:active {
+  transform: scale(0.97);
+}
