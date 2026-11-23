@@ -8,3 +8,8 @@ script = ExtResource("1_o5qli")
 [node name="Label" type="Label" parent="." unique_id=1497241454]
 offset_right = 40.0
 offset_bottom = 23.0
+
+[node name="HBoxContainer" type="HBoxContainer" parent="." unique_id=1114003311]
+custom_minimum_size = Vector2(100, 200)
+offset_right = 100.0
+offset_bottom = 200.0

@@ -11,3 +11,7 @@ func _ready():
 	print("Karışık harfler: ", harfler)
 	print("Cevap: ", hedef_kelime)
 	$Label.text = " ".join(harfler)
+	for harf in harfler:
+		var btn = Button.new()
+		btn.text = harf
+		$HBoxContainer.add_child(btn)
